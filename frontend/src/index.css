@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Lora:ital@0;1&family=Open+Sans:wght@300&family=PT+Serif&family=Playfair+Display&family=Quicksand:wght@500;600;700&family=Roboto+Slab:wght@100&display=swap');
+body{
+   
+    font-family: 'Quicksand', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
