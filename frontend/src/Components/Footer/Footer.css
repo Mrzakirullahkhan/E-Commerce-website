@@ -25,6 +25,11 @@
 .footer-links li{
     cursor: pointer;
 }
+.footer-links li:hover{
+    color: rgb(241, 59, 59);
+    transform: scale(1.01);
+    transform: 0.3s ease;
+}
 .footer-social-icons{
     display: flex;
     gap: 20px;
