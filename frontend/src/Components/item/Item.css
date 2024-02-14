@@ -1,5 +1,6 @@
 .item{
     width: 200px;
+    margin: 5px;
    /* background-color: orange; */
 }
 .item p{
