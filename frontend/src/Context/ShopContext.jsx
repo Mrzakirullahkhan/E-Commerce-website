@@ -5,18 +5,18 @@ import all_products from "../Components/Assets/all_product"
 
 export const  shopContext = createContext(null);
 
-    // for cart
-    const getDefaultCart = ()=>{
-        let cart = {};
-        for (let index = 0; index < all_products.length+1; index++) {
-            cart[index] = 0
-            
-        }
-        return cart
+// for cart
+const getDefaultCart = ()=>{
+    let cart = {};
+    for (let index = 0; index < all_products.length+1; index++) {
+        cart[index] = 0
+        
     }
+    return cart
+}
 
 const ShopContextProvider = (props)=>{
-
+    
     const [cartItems,setcartItems] = useState(getDefaultCart())
     
     
